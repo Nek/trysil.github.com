@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+  height: 100%;
+  display: grid;
+  background-color: #000;
+  background: url(https://www.trysil.com/contentassets/eec237e129724d59ae77a9aed343412d/trysil-sentrum.jpg)  no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+span {
+  /* thing to center */
+  margin: auto;
+  margin-top: 16vw;
+  background: rgba(0,0,0,.5);
+  padding: 3vh 4vh 2vh 4vh;
+}
+
+#title {
+  font-size: 6vw;
+  text-align: center;
+  color: #fff;
+}
+
+ul#countdown {
+  position: relative;
+  margin: 0 auto;
+  padding: 15px 0 20px 0;
+  color: #fff;
+  overflow: hidden;
+}
+ul#countdown li {
+  margin: 0 -3px 0 0;
+  padding: 0;
+  display: inline-block;
+  width: 25%;
+  font-size: 12vw;
+  text-align: center;
+}
+ul#countdown li .label {
+  color: #fff;
+  font-size: 3vw;
+}
